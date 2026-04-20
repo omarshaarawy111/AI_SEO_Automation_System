@@ -1,16 +1,5 @@
 # 🚀 SEO Automation App
 
-## 📖 Complete Documentation Available!
-
-**🚀 [View Professional Documentation →](docs/README.md)**
-
-This repository now includes comprehensive documentation covering:
-- Complete installation guide
-- Detailed user manual  
-- API reference
-- Troubleshooting guide
-- Best practices
-
 ---
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
