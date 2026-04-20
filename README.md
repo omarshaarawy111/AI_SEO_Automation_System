@@ -51,13 +51,7 @@ seo_automation_app/
 │   ├── sample.jpg
 │   └── Website SEO Audit.json
 │   
-├── data/                 # Input test data (Excel, links, etc.)
-│   ├── automation test.xlsx
-│   └── link.txt
 │ 
-├── portable/             # Portable app ready to use
-│   ├── setup.c
-│   └── run_app.c
 │ 
 ├── src/                  # Main application source
 │   ├── main.py           # 🚀 Entry point for Streamlit app
@@ -65,9 +59,7 @@ seo_automation_app/
 │   ├── config.py         # Configurations
 │   ├── browser_utils.py  # Selenium helpers
 │   ├── metatags_utils.py # Meta updates
-│   ├── login_utils.py    # Login flow
 │   ├── file_utils.py     # File parsing
-│   ├── image_utils.py    # Image upload logic
 │   └── components/       # UI components (sidebar, footer, screen, etc.)
 │       ├── screen.py
 │       └── footer.py
@@ -82,8 +74,8 @@ seo_automation_app/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/omarshaarawy111/SEO_Automation.git
-cd SEO_Automation
+git clone https://github.com/omarshaarawy111/AI_SEO_Automation_System.git
+cd AI_SEO_Automation_System
 
 # 2. Create virtual environment (recommended)
 python -m venv venv
@@ -149,15 +141,6 @@ Image Name | Alt Text | Target URL
 - `xlsxwriter`
 
 (see [requirements.txt](./requirements.txt) for full list)
-
----
-
-## 🤝 Contributing
-
-Contributions of Nestle developers are welcome!  
-- Fork the repo  
-- Create a feature branch  
-- Submit a pull request  
 
 ---
 
