@@ -1,5 +1,5 @@
 # 🚀 SEO Automation App
-> ⚠️ This is a **simplified demo version** of an internal SEO automation system.  
+> ⚠️ This is a **simplified demo version** of anSEO automation system.  
 > All proprietary code, credentials, and platform-specific logic have been removed to comply with confidentiality policies.
 ---
 
