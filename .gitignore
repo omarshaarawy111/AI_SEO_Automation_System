@@ -1,0 +1,75 @@
+
+# --- VS Code/Editor related ---
+.vscode/
+
+# --- Ignore AppData/System Files (Crucial for your issue) ---
+# This ignores anything within the Local/Roaming/Temp folders in your user directory
+# It's a broad exclusion based on the paths shown in your image
+AppData/
+
+# Specific patterns seen in the screenshot, just in case:
+# Ignore all .db, .db-shm, and .db-wal files, which are often SQLite/system files
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore Windows system/metadata files like Breadcrumbs or CrashpadMetrics
+Breadcrumbs
+CrashpadMetrics-active.pma
+6F75932F*
+F4EB2D6C*
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Streamlit and temporary files
+.streamlit/
+*.log
+*.tmp
+*.temp
+
+
+
+# Sensitive data
+*.key
+*.pem
+*.secret
+credentials.json
+*.credential*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+installer/Live/
+installer/Testing/
+node_modules/
+/build
+/distS
+installer/SEO Automation App
+installer/dist/
+installer/build/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Project-specific ignores
+src/error.png
+!Data/automation test.xlsx  # Keep sample data file if needed
+!Data/link.txt  # Keep link.txt if needed
